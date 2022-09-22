@@ -17,7 +17,7 @@ function App() {
 
     setTimeout(() => {
       setAlert(null);
-    }, 2000);
+    }, 2500);
   };
 
   const [mode, setMode] = useState("light");
