@@ -72,7 +72,7 @@ export default function TextForm(props) {
             className="btn btn-primary mx-1 my-1"
             onClick={undoHandller}
           >
-            CllickToBackSpace
+           BackSpace
           </button>
           <button
             disabled={text.length === 0}
@@ -86,7 +86,7 @@ export default function TextForm(props) {
             className="btn btn-primary mx-1 my-1"
             onClick={copyHandller}
           >
-            CopyText
+            Copy Text
           </button>
           {/* <button type="button" className="btn btn-primary my-2" onClick={toggleStyle}>{btnText}</button> */}
         </div>
